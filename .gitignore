@@ -1,0 +1,24 @@
+
+# Arquivos locais e artefatos de desenvolvimento
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+.env
+!.env.example
+node_modules/
+.vite/
+.next/
+.turbo/
+coverage/
+!.env.local.example
