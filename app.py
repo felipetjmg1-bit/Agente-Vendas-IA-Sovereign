@@ -37,4 +37,5 @@ iface = gr.Interface(
     description="Carregue seu arquivo CSV de leads para qualificá-los automaticamente usando IA. Este é um exemplo de prova de conceito."
 )
 
-iface.launch()
+if __name__ == "__main__":
+    iface.launch()
